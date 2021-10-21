@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@drawable/shape_document_section_middle"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview_document"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearlayout_document_section_top"
+        android:background="@drawable/shape_document_section_top"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_document_section_top_1"
+            android:text="STORAGE"
+            android:textAllCaps="false"
+            android:fontFamily="@font/averia_gruesa_libre"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_document_section_top_button">
+        </Button>
+        <Button
+            android:id="@+id/button_document_section_top_2"
+            android:fontFamily="@font/averia_gruesa_libre"
+            android:text="userID"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:background="@drawable/shape_document_section_top_button"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </Button>
+        <Button
+            android:id="@+id/button_document_section_top_3"
+            android:fontFamily="@font/averia_gruesa_libre"
+            android:text="wzt"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:background="@drawable/shape_document_section_top_button"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </Button>
+
+    </LinearLayout>
+    <!--LinearLayout
+        android:background="@drawable/shape_document_section_bottom"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+    </LinearLayout-->
+
+</FrameLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!--基础颜色-->
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="blue">#ff0000ff</color>
+
+    <!--app主题颜色层级-->
+
+    <!--浅绿色初代主题-->
+    <!--
+    <color name="styleLevel_000">#F9FFF3</color>
+    <color name="styleLevel_001">#EAFAD8</color>
+    <color name="styleLevel_002">#CEEFA7</color>
+    <color name="styleLevel_003">#B0EA6A</color>
+    <color name="styleLevel_004">#81E609</color>
+    <color name="styleLevel_005">#4CAF50</color>
+    <color name="styleLevel_006">#5A935C</color>
+    -->
+
+    <!--深蓝色二代主题-->
+
+    <color name="styleLevel_000">#E9EEF8</color>
+    <color name="styleLevel_001">#E2EBF8</color>
+    <color name="styleLevel_002">#9CB4E1</color>
+    <color name="styleLevel_003">#789BD8</color>
+    <color name="styleLevel_004">#1E50AC</color>
+    <color name="styleLevel_005">#123A83</color>
+    <color name="styleLevel_006">#071F51</color>
+
+
+    <!--浅蓝色三代主题-->
+    <!--
+    <color name="styleLevel_000">#F9FDFF</color>
+    <color name="styleLevel_001">#EAF4FA</color>
+    <color name="styleLevel_002">#D1EAFA</color>
+    <color name="styleLevel_003">#B4E2FF</color>
+    <color name="styleLevel_004">#9BD5FA</color>
+    <color name="styleLevel_005">#87CEFA</color>
+    <color name="styleLevel_006">#35AFFA</color>
+    -->
+
+    <!--浅紫色三代主题-->
+    <!--
+    <color name="styleLevel_000">#FDFDFF</color>
+    <color name="styleLevel_001">#F6F6FF</color>
+    <color name="styleLevel_002">#EBEBFF</color>
+    <color name="styleLevel_003">#D2D2FB</color>
+    <color name="styleLevel_004">#C4C4FF</color>
+    <color name="styleLevel_005">#B0B0FD</color>
+    <color name="styleLevel_006">#8E8EFF</color>
+    -->
+    <!--蓝色四代主题-->
+    <!--
+    <color name="styleLevel_000">#FFFFFF</color>
+    <color name="styleLevel_001">#F5FCFF</color>
+    <color name="styleLevel_002">#E6F7FF</color>
+    <color name="styleLevel_003">#D3F1FF</color>
+    <color name="styleLevel_004">#C1EBFF</color>
+    <color name="styleLevel_005">#B5E7FF</color>
+    <color name="styleLevel_006">#94DCFF</color>
+    -->
+
+
+
+</resources>

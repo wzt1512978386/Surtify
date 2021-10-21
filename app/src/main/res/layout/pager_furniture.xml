@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:text="Smart home"
+        android:textSize="40sp"
+        android:textColor="@color/styleLevel_006"
+        android:fontFamily="@font/chicle"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview_furniture"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </androidx.recyclerview.widget.RecyclerView>
+        <View
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/styleLevel_006"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+        </View>
+        <TextView
+            android:text="Mobile app"
+            android:textSize="40sp"
+            android:textColor="@color/styleLevel_006"
+            android:fontFamily="@font/chicle"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="250dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textview_furniture_connectinfo"
+        android:text=""
+        android:textSize="35sp"
+        android:fontFamily="@font/chicle"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/styleLevel_005"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+</LinearLayout>
+

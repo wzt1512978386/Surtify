@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layout_gravity="center">
+    <ImageButton
+        android:id="@+id/imagebutton_furniture_item"
+        android:scaleType="centerInside"
+        android:background="@color/transparent"
+        android:src="@drawable/p_image_furniture_computer"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="60dp"
+        android:layout_height="60dp">
+    </ImageButton>
+    <ImageView
+        android:id="@+id/imageview_furniture_item_connectinfo"
+        android:src="@drawable/p_button_furniture_wait"
+        android:visibility="invisible"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp">
+    </ImageView>
+    <TextView
+        android:id="@+id/textview_furniture_item"
+        android:text="电脑"
+        android:textSize="10sp"
+        android:fontFamily="@font/chicle"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/styleLevel_006"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+</FrameLayout>

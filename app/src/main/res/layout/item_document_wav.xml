@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout_document_item_wav"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:clickable="true">
+    <ImageView
+        android:src="@drawable/p_image_document_wavfile"
+
+        android:layout_margin="5dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp">
+    </ImageView>
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textview_document_item_wavID"
+            android:text="wzt"
+            android:textSize="15sp"
+            android:textColor="@color/styleLevel_006"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/textview_document_item_wavinfo"
+            android:text="5.1MB ~ 20:14:55 ~ 1342ms"
+            android:textSize="12sp"
+            android:textColor="@color/styleLevel_005"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="right">
+        <ImageButton
+            android:id="@+id/imagebutton_document_item_wav_setting"
+            android:src="@drawable/p_button_document_item_menu"
+            android:background="@color/transparent"
+            android:scaleType="centerCrop"
+            android:layout_margin="15dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp">
+        </ImageButton>
+    </LinearLayout>
+
+    <!--ImageButton
+        android:id="@+id/imagebutton_document_item_option"
+        android:layout_width="40dp"
+        android:layout_height="40dp">
+    </ImageButton-->
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout_document_item_folder"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal">
+    <ImageView
+        android:src="@drawable/p_image_document_folder"
+        android:layout_margin="5dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp">
+    </ImageView>
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textview_document_item_folder_userID"
+            android:text="wzt"
+            android:textSize="20sp"
+            android:textColor="@color/styleLevel_006"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/textview_document_item_folder_userinfo"
+            android:text="5项 | 2020/08/32 | info"
+            android:layout_marginTop="1dp"
+            android:textColor="@color/styleLevel_005"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="right">
+        <ImageButton
+            android:id="@+id/imagebutton_document_item_folder_setting"
+            android:src="@drawable/p_button_document_item_menu"
+            android:background="@color/transparent"
+            android:scaleType="centerCrop"
+            android:layout_margin="15dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp">
+        </ImageButton>
+    </LinearLayout>
+
+</LinearLayout>
